@@ -17,6 +17,7 @@ const Auth = () => import('@/views/auth/index.vue')
 const Transform = () => import('@/views/transform/index.vue')
 const Flow = () => import('@/views/flow/index.vue')
 const Lineage = () => import('@/views/lineage/index.vue')
+const ShiftSegment = () => import('@/views/shift_segment/index.vue')
 const Report = () => import('@/views/report/index.vue')
 
 const router = createRouter({
@@ -39,6 +40,7 @@ const router = createRouter({
     { path: '/transform', name: 'transform', component: Transform },
     { path: '/flow', name: 'flow', component: Flow },
     { path: '/lineage', name: 'lineage', component: Lineage },
+    { path: '/shift_segment', name: 'shift_segment', component: ShiftSegment },
     { path: '/report', name: 'report', component: Report },
   ],
 })
